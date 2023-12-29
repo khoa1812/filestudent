@@ -25,7 +25,7 @@ public class Main {
         students.add(new Student(1, "Nguyễn Văn A", "Hà Nội"));
         students.add(new Student(2, "Nguyễn Văn b", "Hà Nội"));
         students.add(new Student(3, "Trần Thị C", "Đà Nẵng"));
-        students.add(new Student(4, "Nguyễn Th D", "Sài Gòn"));
+        students.add(new Student(4, "Nguyễn Thị D", "Sài Gòn"));
         students.add(new Student(5, "Hoàng Văn E", "Hà Nội"));
         writeDataToFile("student.txt", students);
         List<Student> studentDataFromFile = readDataFromFile("student.txt");
